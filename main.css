@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@media all{
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:Kumbh Sans ; */
+    font-weight: 400, 700;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    /* max-width:fit-content; */
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.carts {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.content p{
+    color: hsl(219, 9%, 45%);
+    font-size: 15px;
+    font-family:Kumbh Sans ;
+}
+
+.whole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 70px;
+    margin: 10px auto;
+    max-width: 900px;
+    
+}
+
+.price {
+    display: flex;
+    /* background-color: hsl(0, 0%, 100%); */
+  }
+  
+.price p{
+    padding-right: 10px;
+}  
+
+.price button{
+    background-color: hsl(25, 100%, 94%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    padding: 4px;
+    font-size: 10px;
+}
+
+.scrap p{
+    font-size: 12px;
+    color: hsl(219, 9%, 45%);
+    
+}
+
+.buttons{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.buttons button{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.righty button{
+    background-color:hsl(26, 100%, 55%) ;
+    color: aliceblue;
+    padding: 10px 50px;
+}
+
+/* .price  div {
+    background-color:hsl(0, 0%, 100%);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  } */
+
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+.user{
+    display: flex;
+    
+}
+.user img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+
+
+}
+
+.navigation{
+    list-style: none;
+    color: hsl(220, 14%, 75%);
+}
+
+.navigation li{
+
+    display: inline-block;
+    margin: 100px, 100px;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+
+.left{
+    flex: 1;
+    overflow: hidden;
+}
+
+.left img{
+    border-radius: 10px;
+}
+
+.right{
+    flex: 1;
+    margin-top: 0;
+}
+
+
+.right h4, p, h1{
+    text-align: left;
+    font-family: Kumbh Sans;
+}
+
+.img{
+    border-radius: 10%;
+    /* height: 450px; */
+    width:100%;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.simg{
+    display: flex;
+    gap: 20px;
+}
+h4{
+    color: hsl(26, 100%, 55%);
+    margin: 0px;
+}
+.prices{
+    text-align: center;
+    display: flex;
+}
+}
+
+
+/* mobile responsive code */
+
+
+@media (max-width: 380px) {
+
+
+.flavi{
+    height: 1px;
+    width: 1px;
+}  
+
+.whole{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.buttons{
+    display: block;
+    /* padding: 10%; */
+}
+
+.lefty{
+    padding: 0px 0px;
+    margin: 0px 10px;
+    width: 40px;
+    height: 50px;        
+}
+.lefty button{
+    padding: 15px 80px;
+}
+.mobi{
+    display: flex;
+}
+
+.scrap{
+    padding-left: 10px; 
+    justify-content: flex-end;
+}
+
+.righty{
+    padding-top: 15px 10px;
+}
+
+.content p{
+    font-size: 12px;
+}
+.content h1{
+    font-size: 20px;
+}
+
+body{
+    padding-bottom: 20px;
+}
+}
